@@ -1,0 +1,16 @@
+# Vikranth Pydeti                                         02-12-2025
+# Lab 4  - This code contains the conversion of the previous code. 
+
+def distancespeedtime2 (Speed, Time) :
+    Distance = Speed * Time
+    return Distance 
+
+
+def main () :
+    Speed = float(input("Please enter the value of Speed in meters per second: "))
+    Time = float(input("Please enter the value of Time in seconds: "))
+    Distance = distancespeedtime2 (Speed, Time)
+    print(Distance)
+
+if __name__ == "__main__":
+    main()
